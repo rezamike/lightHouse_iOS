@@ -1,9 +1,9 @@
 {
-  "devToolsPort": 19003,
+  "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 79983,
+  "packagerPid": 83562,
   "expoServerNgrokUrl": "https://zp-4h3.anonymous.12-03-18lighthouse-ios.exp.direct",
   "packagerNgrokUrl": "https://packager.zp-4h3.anonymous.12-03-18lighthouse-ios.exp.direct",
-  "ngrokPid": 80009
+  "ngrokPid": 83582
 }

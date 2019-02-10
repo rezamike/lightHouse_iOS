@@ -5,6 +5,8 @@ import {createStackNavigator, createAppContainer} from 'react-navigation';
 import Home from "./app/screens/Home.js";
 import Other from "./app/screens/Other.js";
 
+
+
 import {Provider} from "react-redux";
 import store from "./store.js";
 
