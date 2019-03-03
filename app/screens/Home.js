@@ -23,10 +23,11 @@ class Home extends Component {
     const {navigate} = this.props.navigation;
     return(
       <View style={styles.container}>
-        <Text>
-          Hello this is Home.
+        <Text style={styles.top}>
+          This is home.
         </Text>
         <BusinessDetails
+          style={styles.deets}
           name={this.state.name}
           rating={this.state.rating}
           picUrl={this.state.picUrl}/>
@@ -38,6 +39,12 @@ class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1
+  },
+  top:{
+    flex: -1
+  },
+  deets:{
+    flex: 9
   }
 });
 
