@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from "react-native";
 import {createStackNavigator} from 'react-navigation';
-import Menu from "../sections/Menu.js";
+//import Menu from "../sections/Menu.js";
+import BusinessDetails from "./BusinessDetails.js";
 
 
 class Home extends Component {
@@ -16,7 +17,7 @@ class Home extends Component {
         <Text>
           Hello this is Home.
         </Text>
-        <Menu navigate={navigate} />
+        <BusinessDetails />
       </View>
     );
   }
