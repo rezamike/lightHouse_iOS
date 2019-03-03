@@ -10,6 +10,15 @@ class Home extends Component {
     header: null
   };
 
+  constructor() {
+    super();
+    this.state = {
+      name: "Balls Bar",
+      rating: 4,
+      picUrl: "https://whyy.org/wp-content/uploads/2018/05/owner-jp-teti-stands-behind-the-basement-bar-at-passyunk-avenue-a-philly-themed-dive-bar-in-london.original-e1526133272703-768x462.jpg"
+    }
+  }
+
   render(){
     const {navigate} = this.props.navigation;
     return(
@@ -17,7 +26,10 @@ class Home extends Component {
         <Text>
           Hello this is Home.
         </Text>
-        <BusinessDetails />
+        <BusinessDetails
+          name={this.state.name}
+          rating={this.state.rating}
+          picUrl={this.state.picUrl}/>
       </View>
     );
   }
